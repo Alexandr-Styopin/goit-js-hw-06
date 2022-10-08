@@ -16,7 +16,6 @@ const createList = ingredients.map((ingredient) => {
   createLi.textContent = ingredient;
   return createLi;
 });
-
 list.append(...createList);
 
 console.log(createList);
