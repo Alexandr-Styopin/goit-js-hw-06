@@ -17,8 +17,6 @@ const createList = ingredients.map((ingredient) => {
   return createLi;
 });
 
-
-
 list.append(...createList);
 
 console.log(createList);
