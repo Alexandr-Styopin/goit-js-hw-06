@@ -9,11 +9,9 @@ incrementBtn.addEventListener('click', onIncrement);
 let counterValue = 0;
 
 function onDecrement (evt) {
-    console.log('-');
     valueEl.textContent = counterValue -=1;
 };
 
 function onIncrement (evt) {
-    console.log('+');
     valueEl.textContent = counterValue +=1;
 };
