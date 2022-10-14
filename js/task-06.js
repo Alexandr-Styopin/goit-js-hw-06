@@ -1,9 +1,9 @@
 const input = document.querySelector('#validation-input');
 const dataLength = Number(input.getAttribute('data-length'));
 
-input.addEventListener('blur', onInputBorderColor);
+input.addEventListener('blur', onBlur);
 
-function onInputBorderColor (evt) {
+function onBlur (evt) {
     if (dataLength === evt.currentTarget.value.length) {
         input.classList.add('valid');
         
