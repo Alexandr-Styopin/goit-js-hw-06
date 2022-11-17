@@ -5,4 +5,9 @@ input.addEventListener('input', onInputText);
 
 function onInputText(evt) {
     output.textContent = evt.currentTarget.value;
+
+    if (!evt.currentTarget.value) {
+        return output.textContent = "Anonymous";
+    } 
+
 };
